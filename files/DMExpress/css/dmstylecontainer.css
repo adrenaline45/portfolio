@@ -1,0 +1,145 @@
+/*FONT I BOJA ZA ZAKAZIVANJE KURIRA*/
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #0F94D7;
+    border-color: #204D74;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #032E8A;
+    border-color: #0B154D;
+}
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*BOJA ZA PREPOZNAJTE RAZLIKU*/
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0px 20px;
+    border-bottom: 2px solid #F8FC22;
+}
+/*BOJA ZA LINK CENOVNIK*/
+a {
+    color: #032E8A;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #0F94D7;
+    text-decoration: underline;
+}
+/*FOOTHER*/
+.bojafooter {
+background-color: #EEE;
+}
+.pozicijafollow {
+	padding-left: 150px;
+}
+.bojafooter2 {
+	background-color:#CCC;
+}
+.bojafollowlinija {
+	border-bottom:2px solid #039;
+}
+.fontfooter {
+	font-size:12px;
+}
+/*MARGINA*/
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/*O NAMA*/
+.padding {
+	    padding-bottom: 30px;
+}
+/*USLOVI POSLOVANJA HEADING*/
+.centar {
+	text-align:center;
+}
+.padding2 {
+	padding-bottom: 60px;
+}
+/*PLAVA BOJA*/
+.plavaboja {
+	color:#032E8A;
+}
+/*ZUTA BOJA*/
+.zutaboja {
+	color:#F7FB22;
+}
+/*CRVENA BOJA*/
+.crvenaboja {
+	color:red;
+}
+/*MALA NAVIGACIJA UGAO*/
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: outside none none;
+    background-color: #F5F5F5;
+    border-radius: 0px;
+}
+/*TABELA VISINA*/
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 0.8;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+}
+/*ZUTA BOJA POZADINE*/
+.zutapozadina {
+	background-color:#F7FB22;
+}
+/*CRNA BOJA*/
+.crnaboja {
+	color:#000;
+}
+/*UGLOVI ZA DUGME I JUMBOTON*/
+.btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33333;
+    border-radius: 0px;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 0px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}

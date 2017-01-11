@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+body {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+    height: 100%;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+}
+html{
+    height: 100%;    
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.bg1 {
+	width: 100%;
+	height: 200vh;
+	background-color: black;
+}
+/***************************************NAV****************************************/
+.nav {
+	width: 100%;
+	height: 30%;
+	background-color: yellow;	
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+.col {
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+.colImg {
+	height: 40%;
+	width: 100%;
+	text-align: center;
+}
+.colImg > img {
+	width: 40%;
+	height: 100%;
+}
+.col > h1 {
+	margin: 0;
+	padding-top: 0;
+	font-size: 35px;
+}
+.black:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+.black2 {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+/***************************************INDEX****************************************/
+#index {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+#index div:nth-child(1) {
+	
+	width: 90%;
+	border-left: 5px solid yellow;
+	margin-left: 10%;
+	margin-top: 10%;
+	padding-left: 2%;
+}
+#index h1 {
+	color: white;
+	font-size: 35px;
+	margin:0;
+}
+/***************************************INDEX-PROFILE-IMAGE****************************************/
+#index div:nth-child(2) {
+	width: 250px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 3px solid yellow;
+	overflow: hidden;
+	z-index: 1;
+}
+#index div:nth-child(2)> img {
+	width: 250px;
+	height: 250px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+#index div:nth-child(2)> img:hover {
+	filter: grayscale(0);
+}
+/***************************************TEXT****************************************/
+.bgHeading {
+	width: 100%;
+	height: 17	vh;
+	background-color: yellow;
+}
+.divHeading {
+	position: relative;
+	width: 100%;
+	height: 20vh;
+}
+.textHeading {
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/***************************************ABOUT****************************************/
+.bg2 {
+	width: 100%;
+	height: 180vh;
+	background-color: black;
+}
+#about {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+#about-div1 {
+	height: 80%;
+	width: 90%;
+	color: white;
+	font-size: 20px;	
+	margin-left: 20px;
+}
+#about-div2 {
+	height: 50%;
+	width: 90%;
+	color: white;	
+	font-size: 20px;
+	margin-left: 20px;
+}
+.who {
+	font-size: 80px;
+	margin-top: 0;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+/***************************************WORK****************************************/
+.bg3 {
+	width: 100%;
+	height: 150vh;
+	background-color: black;
+}
+#work {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+.allProjects {
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	height: 90%;
+	left: 5%;
+	top: 5%;
+	overflow: auto;
+}
+.divProject {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	box-shadow: 9px 0 20px 1px black;
+	margin: 10px;
+}
+.divProject img {
+	width: 200px;
+	height: 117px;
+}
+#projectName1 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+#projectName2 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+#projectName3 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+#projectName4 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+#projectName5 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+#projectName6 {
+	font-size: 20px;
+	background-color: rgba(255,255,0,0.4);
+	font-weight: bold;
+	display: none;
+}
+/***************************************CONTACT****************************************/
+.bg4 {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+#contact {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+#divContact {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.questions {
+	font-size: 80px;
+	color: white;
+	margin: 0;
+	font-weight: bold;
+}
+.hesitate {
+	color: white;
+	font-weight: bold;
+	margin-top: 0;
+	font-size: 25px;
+}
+#divContact img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+#divContact a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}

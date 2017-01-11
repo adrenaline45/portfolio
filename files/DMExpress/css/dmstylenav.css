@@ -1,0 +1,43 @@
+/*BOJA ZA CELU NAVIGACIJU*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #0B154D;
+    background-color: #032E8A;
+}
+/*BOJA ZA KRAJEVE*/
+.container-fluid {
+    padding-right: 15px;
+	background-color: #032E8A;
+    padding-left: 15px;
+	background-color: #032E8A;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*BOJA ZA POCETNU DUGME*/
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: #0F94D7;
+}
+/*BOJA ZA OSTALE DUGMADI*/
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #FFF;
+    background-color: #0F94D7;
+}
+/*BOJA ZA PADAUCI MENI*/
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F7FB22;
+}
+/*FONT ZA CEO SAJT*/
+body {
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}

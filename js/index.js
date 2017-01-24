@@ -3,27 +3,6 @@ window.onload = function() {
 	work = document.getElementById("work-icon");
 	contact = document.getElementById("contact-icon");
 
-	about.addEventListener("mouseenter", function(){
-		about.innerHTML = "<h1><img src='images/about-icon.png' height='50' width='50'></h1>";
-	},false);
-	about.addEventListener("mouseleave", function(){
-		about.innerHTML = "<h1>About me</h1>";
-	},false);
-
-	work.addEventListener("mouseenter", function(){
-		work.innerHTML = "<h1><img src='images/work-icon.png' height='50' width='50'></h1>";
-	},false);
-	work.addEventListener("mouseleave", function(){
-		work.innerHTML = "<h1>My work</h1>";
-	},false);
-
-	contact.addEventListener("mouseenter", function(){
-		contact.innerHTML = "<h1><img src='images/contact-icon.png' height='50' width='50'></h1>";
-	},false);
-	contact.addEventListener("mouseleave", function(){
-		contact.innerHTML = "<h1>Contact</h1>";
-	},false);
-
 	document.addEventListener("scroll", function() {
 	var scrollPos = $(window).scrollTop();
 	if (scrollPos >400 && scrollPos <= 1200) {
